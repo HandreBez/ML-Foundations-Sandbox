@@ -60,7 +60,6 @@ The model learns a regression line from scratch through gradient descent and plo
 
 - **No vectorisation** — loops are intentional. The goal is to see each step of the computation, not optimise runtime.
 - **Pure NumPy** — no sklearn or autograd. The gradient is derived and coded by hand.
-- **Cost printed every 1,000 iterations** — so you can verify the loss is decreasing monotonically.
 
 ## What I learned
 
