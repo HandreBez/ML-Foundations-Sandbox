@@ -5,3 +5,12 @@ data/
 models/
 .env
 *.log
+
+# Python packaging
+*.egg-info/
+
+# Editor settings
+.vscode/
+
+build/
+dist/

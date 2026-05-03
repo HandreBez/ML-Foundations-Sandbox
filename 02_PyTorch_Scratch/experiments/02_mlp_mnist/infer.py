@@ -58,8 +58,8 @@ def run_inference():
     # The predicted class is the index with the highest score
     predicted_label = np.argmax(logits.data)
 
-    print(f"🤖 Model Predicts: [{predicted_label}]")
-    print(f"✅ True Label:     [{true_label}]")
+    print(f"Model Predicts: [{predicted_label}]")
+    print(f"True Label:     [{true_label}]")
 
     if predicted_label == true_label:
         print("\nSuccess! The custom engine works perfectly.")
