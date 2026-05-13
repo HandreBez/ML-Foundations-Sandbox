@@ -1,17 +1,20 @@
-# ML Foundations Sandbox 2026
+# ml-foundations-sandbox
 
-This repository serves as my active proving ground and daily scratchpad for building the mathematical and practical foundations of Machine Learning and Computer Vision. Rather than relying on high-level APIs, the focus here is on raw algorithm implementation, vectorization, and mathematical rigor.
+A collection of foundational NumPy exercises building the mathematical intuitions necessary for machine learning — vectorised thinking, broadcasting, and linear algebra operations from scratch.
 
-## Structure
+This repo is the groundwork behind a more complete project: [autograd-from-scratch](https://github.com/HandreBez/autograd-from-scratch), a custom reverse-mode automatic differentiation engine trained to 97.42% accuracy on MNIST.
 
-* **`01_NumPy_Drills/`** : Transitioning from standard loops to vectorized operations. Focuses on matrix multiplication, broadcasting, and foundational linear algebra operations necessary for building neural networks.
-* **`02_PyTorch_Scratch/`** : From-scratch implementations of fundamental models (e.g., Linear Regression, multi-layer perceptrons on MNIST) to solidify the underlying mathematics and mechanics of gradient descent before scaling up.
+## What's inside
 
-## Environment & Reproducibility
+- `01_NumPy_Drills/` — matrix multiplication, broadcasting, and linear algebra operations implemented without high-level abstractions. Focus on understanding the mechanics before reaching for a framework.
 
-This repository uses a Conda environment to maintain dependency synchronization across different workstations. 
+## Quickstart
 
-To recreate the environment:
 ```bash
 conda env create -f environment.yml
 conda activate ml-foundations
+```
+
+## Related
+
+- [autograd-from-scratch](https://github.com/HandreBez/autograd-from-scratch) — custom NumPy autograd engine with MLP trained on MNIST
